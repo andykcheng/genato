@@ -1,0 +1,4 @@
+*.zip
+venv/
+*.json  // ignore all generated json files
+.DS_Store
