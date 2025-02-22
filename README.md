@@ -77,7 +77,7 @@ This project demonstrates how to use Lambda@Edge and CloudFront for efficient on
 ## Special note
 One thing that *Got* me was unable to find the log group for the Lambda function. For edge function, it is actually in the **/aws/lambda/us-east-1.genato-func** instead of **/aws/lambda/genato-func**.
 
-The name **genato** here is just a name that is a mix of **Gen** (generate), **A** (one), **TO**. **TO** (pronunciation of the word **picture** in Cantonese).  Making the whole thing sound like **Gelato**.  Just for fun here. 
+The name **genato** here is just a name that is a mix of **Gen** (generate), **A** (one), **TO** (pronunciation of the word **picture** in Cantonese).  Making the whole thing sound like **Gelato**.  Just for fun here. 
 
 ## Credits
 Special thanks to Keith Rozario for his outstanding work on Klayers (https://github.com/keithrozario/Klayers) packaging the Pillow layer, which has greatly simplified image generation for this project.
