@@ -71,6 +71,9 @@ The `package.sh` script automates the deployment process. Here's a breakdown of 
 ## Testing
 Once deployed, go to https://**CLOUDFRONT_DEPLOYMENT_DOMAIN**/640x480,white,png, and you will see an image. 
 
+## Cleanup
+To remove all the components created by this project, run the `cleanup.sh` script. This script will remove the CloudFront distribution, Lambda function, IAM role, and S3 buckets.  However, depends on the speed that the distribution is deleted, it would sometimes fail. I usually delete them manually if that happens. 
+
 ## Conclusion
 This project demonstrates how to use Lambda@Edge and CloudFront for efficient on-demand image generation and caching. While the image generation logic is relatively simple, the methodology can be applied to more resource-intensive operations, such as dynamic image creation based on user-specific data or AI model outputs. This approach can significantly improve the performance and scalability of image delivery in web applications.
 
@@ -81,4 +84,6 @@ The name **genato** here is just a name that is a mix of **Gen** (generate), **A
 
 ## Credits
 Special thanks to Keith Rozario for his outstanding work on Klayers (https://github.com/keithrozario/Klayers) packaging the Pillow layer, which has greatly simplified image generation for this project.
+
+
 
